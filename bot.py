@@ -43,7 +43,6 @@ def run_agent(user_message):
         You can help with research, analysis, writing, coding, and complex tasks.
         Always respond in the same language the user writes in.""",
         llm="auto",
-        markdown=True,
     )
     response = agent.start(user_message)
     return response
